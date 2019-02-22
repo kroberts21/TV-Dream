@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1743">
+<Skein rootNode="node-1989">
     <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
-    <item nodeId="node-1743">
+    <item nodeId="node-1989">
         <command xml:space="preserve">TV Dream</command>
         <result xml:space="preserve">
 
 
 TV Dream
 An Interactive Fiction by kroberts21
-Release 1 / Serial number 190220 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Stage Middle
 Stage Middle
@@ -18,22 +18,23 @@ You can see a red door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1761"></child>
-            <child nodeId="node-1754"></child>
-            <child nodeId="node-1746"></child>
+        <children><child nodeId="node-2006"></child>
+            <child nodeId="node-1999"></child>
+            <child nodeId="node-2284"></child>
+            <child nodeId="node-1990"></child>
         </children>
     </item>
-    <item nodeId="node-1746">
+    <item nodeId="node-1990">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Stage Right
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1747"></child>
+        <children><child nodeId="node-1991"></child>
         </children>
     </item>
-    <item nodeId="node-1747">
+    <item nodeId="node-1991">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Stage Middle
@@ -43,68 +44,71 @@ You can see a red door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1748"></child>
+        <children><child nodeId="node-1992"></child>
         </children>
     </item>
-    <item nodeId="node-1748">
+    <item nodeId="node-1992">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Stage Left
-You can see Key here.
+On Big Oak Tree is big key.
+
+You can also see Grabber here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1749"></child>
-            <child nodeId="node-1768"></child>
+        <children><child nodeId="node-2042"></child>
+            <child nodeId="node-1994"></child>
+            <child nodeId="node-1993"></child>
         </children>
     </item>
-    <item nodeId="node-1768">
+    <item nodeId="node-1993">
         <command xml:space="preserve">pick up key</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1749">
+    <item nodeId="node-1994">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1750"></child>
+        <children><child nodeId="node-1995"></child>
         </children>
     </item>
-    <item nodeId="node-1750">
+    <item nodeId="node-1995">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Stage Middle
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1751"></child>
+        <children><child nodeId="node-1996"></child>
         </children>
     </item>
-    <item nodeId="node-1751">
+    <item nodeId="node-1996">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Backstage
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1752"></child>
+        <children><child nodeId="node-1997"></child>
         </children>
     </item>
-    <item nodeId="node-1752">
+    <item nodeId="node-1997">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Stage Middle
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1753"></child>
+        <children><child nodeId="node-1998"></child>
         </children>
     </item>
-    <item nodeId="node-1753">
+    <item nodeId="node-1998">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Studio Audience
@@ -112,36 +116,339 @@ Studio Audience
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1754">
-        <command xml:space="preserve">open door</command>
-        <result xml:space="preserve">It seems to be locked.
+    <item nodeId="node-2042">
+        <command xml:space="preserve">get grabber</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1755"></child>
+        <children><child nodeId="node-2043"></child>
         </children>
     </item>
-    <item nodeId="node-1755">
+    <item nodeId="node-2043">
+        <command xml:space="preserve">get key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2044"></child>
+        </children>
+    </item>
+    <item nodeId="node-2044">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
-Stage Right
-You can see Key here.
+Stage Middle
+Stage Middle
+
+You can see a red door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1756"></child>
+        <children><child nodeId="node-2045"></child>
+            <child nodeId="node-2240"></child>
         </children>
     </item>
-    <item nodeId="node-1756">
+    <item nodeId="node-2240">
+        <command xml:space="preserve">unlock door with big key</command>
+        <result xml:space="preserve">You unlock the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2045">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">What do you want to unlock the red door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2046"></child>
+        </children>
+    </item>
+    <item nodeId="node-2046">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">You unlock the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2047"></child>
+        </children>
+    </item>
+    <item nodeId="node-2047">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You open the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2048"></child>
+        </children>
+    </item>
+    <item nodeId="node-2048">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Backstage
+safe
+
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2251"></child>
+        </children>
+    </item>
+    <item nodeId="node-2251">
+        <command xml:space="preserve">231</command>
+        <result xml:space="preserve">You unlock the safe, revealing a small key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2263"></child>
+        </children>
+    </item>
+    <item nodeId="node-2263">
         <command xml:space="preserve">pick up key</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1757"></child>
+        <children><child nodeId="node-2264"></child>
         </children>
     </item>
-    <item nodeId="node-1757">
+    <item nodeId="node-2264">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  big key
+  Grabber
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2265"></child>
+        </children>
+    </item>
+    <item nodeId="node-2265">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2266"></child>
+        </children>
+    </item>
+    <item nodeId="node-2266">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">
+
+
+TV Dream
+An Interactive Fiction by kroberts21
+Release 1 / Serial number 190222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Stage Middle
+Stage Middle
+
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2267"></child>
+        </children>
+    </item>
+    <item nodeId="node-2267">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Studio Audience
+2 trees in stage left, 3 trees in stage middle, and 1 tree in stage right. Peculiar.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2284">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Studio Audience
+2 trees in stage left, 3 trees in stage middle, and 1 tree in stage right. Peculiar.
+
+left red
+
+middle blue
+
+right green
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2287"></child>
+        </children>
+    </item>
+    <item nodeId="node-2287">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Stage Middle
+Stage Middle
+
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2288"></child>
+        </children>
+    </item>
+    <item nodeId="node-2288">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Stage Left
+On Big Oak Tree is big key.
+
+You can also see Grabber here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2289"></child>
+        </children>
+    </item>
+    <item nodeId="node-2289">
+        <command xml:space="preserve">get grabber</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2290"></child>
+        </children>
+    </item>
+    <item nodeId="node-2290">
+        <command xml:space="preserve">get key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2291"></child>
+        </children>
+    </item>
+    <item nodeId="node-2291">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Stage Middle
+Stage Middle
+
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2292"></child>
+        </children>
+    </item>
+    <item nodeId="node-2292">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">What do you want to unlock the red door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2293"></child>
+        </children>
+    </item>
+    <item nodeId="node-2293">
+        <command xml:space="preserve">with key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2294"></child>
+        </children>
+    </item>
+    <item nodeId="node-2294">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">You unlock the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2295"></child>
+        </children>
+    </item>
+    <item nodeId="node-2295">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You open the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2296"></child>
+        </children>
+    </item>
+    <item nodeId="node-2296">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Backstage
+safe
+
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2297"></child>
+        </children>
+    </item>
+    <item nodeId="node-2297">
+        <command xml:space="preserve">231</command>
+        <result xml:space="preserve">You unlock the safe, revealing a small key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2298"></child>
+        </children>
+    </item>
+    <item nodeId="node-2298">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  small key
+  big key
+  Grabber
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2299"></child>
+        </children>
+    </item>
+    <item nodeId="node-2299">
+        <command xml:space="preserve">pick up key</command>
+        <result xml:space="preserve">Which do you mean, small key or big key?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2300"></child>
+        </children>
+    </item>
+    <item nodeId="node-2300">
+        <command xml:space="preserve">pick up small key</command>
+        <result xml:space="preserve">You already have that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1999">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2000"></child>
+        </children>
+    </item>
+    <item nodeId="node-2000">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Stage Right
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2019"></child>
+            <child nodeId="node-2001"></child>
+        </children>
+    </item>
+    <item nodeId="node-2001">
+        <command xml:space="preserve">pick up key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2002"></child>
+        </children>
+    </item>
+    <item nodeId="node-2002">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Stage Middle
@@ -151,29 +458,29 @@ You can see a red door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1758"></child>
+        <children><child nodeId="node-2003"></child>
         </children>
     </item>
-    <item nodeId="node-1758">
+    <item nodeId="node-2003">
         <command xml:space="preserve">unlock door</command>
         <result xml:space="preserve">(with Key)
 You unlock the red door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1759"></child>
+        <children><child nodeId="node-2004"></child>
         </children>
     </item>
-    <item nodeId="node-1759">
+    <item nodeId="node-2004">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">You open the red door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1760"></child>
+        <children><child nodeId="node-2005"></child>
         </children>
     </item>
-    <item nodeId="node-1760">
+    <item nodeId="node-2005">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Backstage
@@ -182,7 +489,20 @@ You can see a red door here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1761">
+    <item nodeId="node-2019">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Stage Middle
+Stage Middle
+
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2020"></child>
+        </children>
+    </item>
+    <item nodeId="node-2020">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Stage Left
@@ -192,12 +512,37 @@ You can also see Grabber here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1976"></child>
-            <child nodeId="node-1979"></child>
-            <child nodeId="node-1762"></child>
+        <children><child nodeId="node-2021"></child>
         </children>
     </item>
-    <item nodeId="node-1762">
+    <item nodeId="node-2021">
+        <command xml:space="preserve">get key</command>
+        <result xml:space="preserve">You can't quite reach the key. It's too high up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2022"></child>
+        </children>
+    </item>
+    <item nodeId="node-2022">
+        <command xml:space="preserve">pick up grabber</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2023"></child>
+        </children>
+    </item>
+    <item nodeId="node-2023">
+        <command xml:space="preserve">get key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2024"></child>
+        </children>
+    </item>
+    <item nodeId="node-2024">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Stage Middle
@@ -207,10 +552,75 @@ You can see a red door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1763"></child>
+        <children><child nodeId="node-2025"></child>
         </children>
     </item>
-    <item nodeId="node-1763">
+    <item nodeId="node-2025">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">What do you want to unlock the red door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2026"></child>
+        </children>
+    </item>
+    <item nodeId="node-2026">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">You unlock the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2027"></child>
+        </children>
+    </item>
+    <item nodeId="node-2027">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You open the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2028"></child>
+        </children>
+    </item>
+    <item nodeId="node-2028">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Backstage
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2006">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Stage Left
+On Big Oak Tree is Key.
+
+You can also see Grabber here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2218"></child>
+            <child nodeId="node-2013"></child>
+            <child nodeId="node-2009"></child>
+            <child nodeId="node-2007"></child>
+        </children>
+    </item>
+    <item nodeId="node-2007">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Stage Middle
+Stage Middle
+
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2008"></child>
+        </children>
+    </item>
+    <item nodeId="node-2008">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Stage Right
@@ -219,34 +629,34 @@ You can see Key here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1979">
+    <item nodeId="node-2009">
         <command xml:space="preserve">take key</command>
         <result xml:space="preserve">You can't quite reach the key. It's too high up.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1980"></child>
+        <children><child nodeId="node-2010"></child>
         </children>
     </item>
-    <item nodeId="node-1980">
+    <item nodeId="node-2010">
         <command xml:space="preserve">pick up grabber</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1981"></child>
+        <children><child nodeId="node-2011"></child>
         </children>
     </item>
-    <item nodeId="node-1981">
+    <item nodeId="node-2011">
         <command xml:space="preserve">take key</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1986"></child>
+        <children><child nodeId="node-2012"></child>
         </children>
     </item>
-    <item nodeId="node-1986">
+    <item nodeId="node-2012">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   Key
@@ -255,18 +665,165 @@ You can see Key here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1976">
+    <item nodeId="node-2013">
         <command xml:space="preserve">pick up grabber</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1977"></child>
+        <children><child nodeId="node-2014"></child>
         </children>
     </item>
-    <item nodeId="node-1977">
+    <item nodeId="node-2014">
         <command xml:space="preserve">get key</command>
         <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2032"></child>
+        </children>
+    </item>
+    <item nodeId="node-2032">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2033"></child>
+        </children>
+    </item>
+    <item nodeId="node-2033">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Stage Middle
+Stage Middle
+
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2034"></child>
+        </children>
+    </item>
+    <item nodeId="node-2034">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">What do you want to unlock the red door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2035"></child>
+        </children>
+    </item>
+    <item nodeId="node-2035">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">You unlock the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2036"></child>
+        </children>
+    </item>
+    <item nodeId="node-2036">
+        <command xml:space="preserve">open dor</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2037"></child>
+        </children>
+    </item>
+    <item nodeId="node-2037">
+        <command xml:space="preserve">oops door</command>
+        <result xml:space="preserve">You open the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2038"></child>
+        </children>
+    </item>
+    <item nodeId="node-2038">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Backstage
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2218">
+        <command xml:space="preserve">get grabber</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2219"></child>
+        </children>
+    </item>
+    <item nodeId="node-2219">
+        <command xml:space="preserve">get key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2220"></child>
+        </children>
+    </item>
+    <item nodeId="node-2220">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Stage Middle
+Stage Middle
+
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2221"></child>
+        </children>
+    </item>
+    <item nodeId="node-2221">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">You unlock the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2222"></child>
+        </children>
+    </item>
+    <item nodeId="node-2222">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You open the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2223"></child>
+        </children>
+    </item>
+    <item nodeId="node-2223">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Backstage
+safe
+
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2224"></child>
+        </children>
+    </item>
+    <item nodeId="node-2224">
+        <command xml:space="preserve">231</command>
+        <result xml:space="preserve">You unlock the safe.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2233"></child>
+        </children>
+    </item>
+    <item nodeId="node-2233">
+        <command xml:space="preserve">open safe</command>
+        <result xml:space="preserve">You open the safe.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
