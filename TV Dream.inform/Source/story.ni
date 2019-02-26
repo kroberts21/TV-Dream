@@ -62,16 +62,15 @@ Understand "turn on [something]" as switching it on.
 Understand "light" as lightbulb.
 switching it on is an action applying to one thing.
 
-Instead of examining safe:
-	say "You can't see any such thing.".
-	there is insufficient light.
-
 After switching on the lightbulb:
-	say "You turn on the light. Now you can see a safe";
+	say "You turn on the light. Now you can see a safe.";
 Visibility rule when in darkness:
 	if examining safe:
 		say "safe".
 	there is sufficient light.
+[Instead of examining safe:
+	say "You can't see any such thing.".
+	there is insufficient light.]
 	
 
 [the goal]

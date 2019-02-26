@@ -1828,6 +1828,237 @@ You can see a red door here.
 
 Passcode? &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2824"></child>
+        </children>
+    </item>
+    <item nodeId="node-2824">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The safe remains closed.
+
+Would you like to try again? (Yes or No) &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2825"></child>
+        </children>
+    </item>
+    <item nodeId="node-2825">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Would you like to try again? (Yes or No) &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2826"></child>
+        </children>
+    </item>
+    <item nodeId="node-2826">
+        <command xml:space="preserve">x lights</command>
+        <result xml:space="preserve">
+Would you like to try again? (Yes or No) &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2827"></child>
+        </children>
+    </item>
+    <item nodeId="node-2827">
+        <command xml:space="preserve">unscrew lightbulb</command>
+        <result xml:space="preserve">
+Would you like to try again? (Yes or No) &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2828"></child>
+        </children>
+    </item>
+    <item nodeId="node-2828">
+        <command xml:space="preserve">take lightbulb</command>
+        <result xml:space="preserve">
+Would you like to try again? (Yes or No) &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2829"></child>
+        </children>
+    </item>
+    <item nodeId="node-2829">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2830"></child>
+        </children>
+    </item>
+    <item nodeId="node-2830">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2831"></child>
+        </children>
+    </item>
+    <item nodeId="node-2831">
+        <command xml:space="preserve">put lightbulb in socket</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2832"></child>
+        </children>
+    </item>
+    <item nodeId="node-2832">
+        <command xml:space="preserve">turn on light</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2833"></child>
+        </children>
+    </item>
+    <item nodeId="node-2833">
+        <command xml:space="preserve">x safe</command>
+        <result xml:space="preserve">safe
+
+Passcode? &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2852"></child>
+        </children>
+    </item>
+    <item nodeId="node-2852">
+        <command xml:space="preserve">231</command>
+        <result xml:space="preserve">You have unlocked the safe, revealing a small key.
+That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2872"></child>
+        </children>
+    </item>
+    <item nodeId="node-2872">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2873"></child>
+        </children>
+    </item>
+    <item nodeId="node-2873">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  big key
+  grabber
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2874"></child>
+        </children>
+    </item>
+    <item nodeId="node-2874">
+        <command xml:space="preserve">take small key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2875"></child>
+        </children>
+    </item>
+    <item nodeId="node-2875">
+        <command xml:space="preserve">open safe</command>
+        <result xml:space="preserve">You open the safe, revealing small key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2876"></child>
+        </children>
+    </item>
+    <item nodeId="node-2876">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">(small key)
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2877"></child>
+        </children>
+    </item>
+    <item nodeId="node-2877">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  small key
+  big key
+  grabber
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2878"></child>
+        </children>
+    </item>
+    <item nodeId="node-2878">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Stage Middle
+Stage Middle
+
+You can see a red door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2879"></child>
+        </children>
+    </item>
+    <item nodeId="node-2879">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Studio Audience
+Right in front of the stage, you see two cameras and two lights fixed on low stands.
+
+Looking back at the whole stage, you see 2 trees in stage left, 3 trees in stage middle, and 1 tree in stage right. Peculiar.
+
+left red
+
+middle blue
+
+right green
+
+You can see a black door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2880"></child>
+        </children>
+    </item>
+    <item nodeId="node-2880">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">What do you want to unlock the black door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2881"></child>
+        </children>
+    </item>
+    <item nodeId="node-2881">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">Which do you mean, small key or big key?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2882"></child>
+        </children>
+    </item>
+    <item nodeId="node-2882">
+        <command xml:space="preserve">unlock door with small key</command>
+        <result xml:space="preserve">You unlock the black door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2883"></child>
+        </children>
+    </item>
+    <item nodeId="node-2883">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the black door)
+
+
+    *** You win ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2224">
         <command xml:space="preserve">231</command>
