@@ -1,7 +1,7 @@
 "TV Dream" by kroberts21
 
 [rooms]
-Stage Middle is a room. The description is "Stage Middle".
+Stage Middle is a room. The description is "".
 
 Stage Left is a room. It is east of Stage Middle.
 	Big Oak Tree is scenery in Stage Left.
@@ -19,7 +19,7 @@ Instead of taking grabber:
 	say "Now you can get the key.";
 	move grabber to player.
 
-Stage Right is a room. It is west of Stage Middle.
+Stage Right is a room. It is west of Stage Middle. "This part of the stage is pretty empty compared to the other two sections. Aside from the sky blue backdrop, there are two trees and a tall flagpole with a white flag."
 
 Backstage is a room. "It's kind of dark. From the lights on the top of the stage, you can make out an empty lightbulb socket embedded in the ceiling.".
 The safe is scenery in Backstage. The safe is a closed openable container. The safe is locked and lockable. The description is "safe".
@@ -28,13 +28,8 @@ socket is scenery in Backstage. It is an open container.
 
 Studio Audience is a room. It is south of Stage Middle. "Right in front of the stage, you see two cameras and two lights fixed on low stands.
 
-Looking back at the whole stage, you see 2 trees in stage left, 3 trees in stage middle, and 1 tree in stage right. Peculiar.
+Immediately, you notice something weird. You turn towards the stage, then towards the chairs. Facing the stage, all the chairs on the left are red, in the middle blue, and on the right green."
 
-left red
-
-middle blue
-
-right green".
 Lights are undescribed scenery in Studio Audience. It is an open container. The description is "The lights they use on the show. They are currently off.".
 lightbulb is in Lights. lightbulb is a device. It is fixed in place. It is unlit. It is switched off.
 
@@ -47,7 +42,7 @@ Instead of turning lightbulb:
 
 Instead of taking lightbulb:
 	if lightbulb is fixed in place:
-		say "You try pulling it out, but it's fixed in place.";
+		say "You try pulling it out, but it's stuck. However, you try again, and you feel it wiggle around a little bit.";
 	otherwise:
 		say "Taken.";
 		move lightbulb to player.
@@ -92,6 +87,9 @@ small key unlocks the black door.
 After examining the safe:
 	now the command prompt is "Passcode? >";
 	continue the action.
+	
+Instead of unlocking safe with key:
+	say "It doesn't look like the safe is unlockable with a key.".
    
 After reading a command when the command prompt is "Passcode? >":
 	increment the turn count;
