@@ -1,9 +1,20 @@
 "TV Dream" by kroberts21
 
 [rooms]
-Stage Middle is a room. The description is "".
+Use no scoring.
 
-Stage Left is a room. It is east of Stage Middle.
+When play begins: say "The lights mounted on the ceiling nearly blind you as you wake up. You slowly stand up, and the sound of your foot stepping on a wooden floor startles you. You quickly jump up, and find yourself standing front and center of a stage. Coming to your senses, you realize that you are the only person in the room. No people sitting in the studio audience seats, no people operating lights or cameras, no people running around backstage, just you.
+
+A visceral feeling hits your gut. You have to escape.".
+
+The description of the player is "You're wearing long black pants that go down to your ankles, shiny black shoes, and a purple t-shirt. You feel around your head, and notice you have short hair. Probably black.".
+
+[rooms]
+Stage Middle is a room. "A big wooden cutout of a yellow house with a red roof and a red door stands front and center of the stage, right behind where you were laying down. Around the house stands three taller wooden cutouts of trees.".
+
+Stage Left is a room. It is east of Stage Middle. "Here there is a large, long, round cutout resembling some sort of lake. One giant fake oak tree stands closer to the house, with a large key dangling from its branches.
+
+One of those long plastic grabber things is on the floor at the base of the tree. You can't seem to figure out why it's there."
 	Big Oak Tree is scenery in Stage Left.
 	big key is on top of Big Oak Tree.
 	grabber is a thing in Stage Left.
@@ -28,7 +39,7 @@ socket is scenery in Backstage. It is an open container.
 
 Studio Audience is a room. It is south of Stage Middle. "Right in front of the stage, you see two cameras and two lights fixed on low stands.
 
-Immediately, you notice something weird. You turn towards the stage, then towards the chairs. Facing the stage, all the chairs on the left are red, in the middle blue, and on the right green."
+Immediately, you notice something peculiar. You turn towards the stage, then towards the chairs. Facing the stage, all the chairs on the left are red, in the middle blue, and on the right green."
 
 Lights are undescribed scenery in Studio Audience. It is an open container. The description is "The lights they use on the show. They are currently off.".
 lightbulb is in Lights. lightbulb is a device. It is fixed in place. It is unlit. It is switched off.
@@ -61,7 +72,7 @@ After switching on the lightbulb:
 	say "You turn on the light. Now you can see a safe.";
 Visibility rule when in darkness:
 	if examining safe:
-		say "safe".
+		say "".
 	there is sufficient light.
 [Instead of examining safe:
 	say "You can't see any such thing.".
@@ -73,6 +84,7 @@ Lot is a room.
 
 [doors]
 The red door is north of Stage Middle and south of Backstage.
+The red door is scenery in Stage Middle.
 The red door is a door.
 The red door is locked and lockable.
 big key unlocks the red door.
@@ -119,4 +131,4 @@ After reading a command when the command prompt is "Would you like to try again?
 		reject the player's command.
 
 Instead of opening black door:
-	end the story finally saying "You win".
+	end the story finally saying "You Win".
