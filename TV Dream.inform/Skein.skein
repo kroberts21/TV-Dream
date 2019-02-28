@@ -26,7 +26,59 @@ A big wooden cutout of a yellow house with a red roof and a red door stands fron
             <child nodeId="node-2928"></child>
             <child nodeId="node-1990"></child>
             <child nodeId="node-2929"></child>
+            <child nodeId="node-2982"></child>
+            <child nodeId="node-2978"></child>
         </children>
+    </item>
+    <item nodeId="node-2978">
+        <command xml:space="preserve">x roof</command>
+        <result xml:space="preserve">Brick red, with shingles painted onto it. Whoever was in charge of the artwork did a great job.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2979"></child>
+        </children>
+    </item>
+    <item nodeId="node-2979">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">Solid bright red. It feels more alive than the rest of the set.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2980"></child>
+        </children>
+    </item>
+    <item nodeId="node-2980">
+        <command xml:space="preserve">x house</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2981"></child>
+        </children>
+    </item>
+    <item nodeId="node-2981">
+        <command xml:space="preserve">x safe</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2982">
+        <command xml:space="preserve">x hosue</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2983"></child>
+        </children>
+    </item>
+    <item nodeId="node-2983">
+        <command xml:space="preserve">x house</command>
+        <result xml:space="preserve">A sort of faded yellow-ish color.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2929">
         <command xml:space="preserve">x door</command>

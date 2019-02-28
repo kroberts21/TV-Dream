@@ -11,11 +11,13 @@ The description of the player is "You're wearing long black pants that go down t
 
 [rooms]
 Stage Middle is a room. "A big wooden cutout of a yellow house with a red roof and a red door stands front and center of the stage, right behind where you were laying down. Around the house stands three taller wooden cutouts of trees.".
+roof is scenery in Stage Middle. The description is "Brick red, with shingles painted onto it. Whoever was in charge of the artwork did a great job.".
+house is scenery in Stage Middle. The description is "A sort of faded yellow-ish color.".
 
 Stage Left is a room. It is east of Stage Middle. "Here there is a large, long, round cutout resembling some sort of lake. One giant fake oak tree stands closer to the house, with a large key dangling from its branches.
 
 One of those long plastic grabber things is on the floor at the base of the tree. You can't seem to figure out why it's there."
-	Big Oak Tree is scenery in Stage Left.
+	Big Oak Tree is scenery in Stage Left. The description is "Looks hyperrealistic, but when you reach out to touch it, you feel plastic. You look up, and it seems about nine to ten feet tall.".
 	big key is on top of Big Oak Tree.
 	grabber is a thing in Stage Left.
 
@@ -69,10 +71,10 @@ Understand "light" as lightbulb.
 switching it on is an action applying to one thing.
 
 After switching on the lightbulb:
-	say "You turn on the light. Now you can see a safe.";
+	say "You turn on the light. Now you can see a safe embedded in the center of the back wall.";
 Visibility rule when in darkness:
 	if examining safe:
-		say "".
+		say "It has a number pad and a seven-segment display, almost like a microwave, but super secure. The display is divided into three segments, red, blue, and green.".
 	there is sufficient light.
 [Instead of examining safe:
 	say "You can't see any such thing.".
@@ -83,13 +85,13 @@ Visibility rule when in darkness:
 Lot is a room.
 
 [doors]
-The red door is north of Stage Middle and south of Backstage.
+The red door is north of Stage Middle and south of Backstage. The description is "Solid bright red. It feels more alive than the rest of the set.".
 The red door is scenery in Stage Middle.
 The red door is a door.
 The red door is locked and lockable.
 big key unlocks the red door.
 
-The black door is north of Lot and south of Studio Audience.
+The black door is north of Lot and south of Studio Audience. The description is "Kind of a dark gray-ish color. Above the door is a sign that says in big bold red letters, 'EXIT'.".
 The black door is a door.
 The black door is locked and lockable.
 small key unlocks the black door.
