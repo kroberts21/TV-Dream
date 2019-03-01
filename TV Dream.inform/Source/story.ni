@@ -35,7 +35,7 @@ Instead of taking grabber:
 Stage Right is a room. It is west of Stage Middle. "This part of the stage is pretty empty compared to the other two sections. Aside from the sky blue backdrop, there are two trees and a tall flagpole with a white flag."
 
 Backstage is a room. "It's kind of dark. From the lights on the top of the stage, you can make out an empty lightbulb socket embedded in the ceiling.".
-The safe is scenery in Backstage. The safe is a closed openable container. The safe is locked and lockable. The description is "safe".
+The safe is scenery in Backstage. The safe is a closed openable container. The safe is locked and lockable. The description is "It has a number pad and a seven-segment display, almost like a microwave, but super secure. The display is divided into three segments, red, blue, and green.".
 	small key is in the safe. small key is not fixed in place.
 socket is scenery in Backstage. It is an open container.
 
@@ -92,7 +92,9 @@ The red door is locked and lockable.
 big key unlocks the red door.
 
 The black door is north of Lot and south of Studio Audience. The description is "Kind of a dark gray-ish color. Above the door is a sign that says in big bold red letters, 'EXIT'.".
+The black door is scenery in Studio Audience.
 The black door is a door.
+The black door is closed.
 The black door is locked and lockable.
 small key unlocks the black door.
 
@@ -133,4 +135,12 @@ After reading a command when the command prompt is "Would you like to try again?
 		reject the player's command.
 
 Instead of opening black door:
-	end the story finally saying "You Win".
+	if black door is locked:
+		stop the action;
+		say "the door is locked";
+	Otherwise:
+		continue the action.
+
+An every turn rule:
+	if player is in Lot:
+		end the story finally saying "You Win".
