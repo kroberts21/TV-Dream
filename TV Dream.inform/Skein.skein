@@ -13,7 +13,7 @@ A visceral feeling hits your gut. You have to escape.
 
 TV Dream
 An Interactive Fiction by kroberts21
-Release 1 / Serial number 190228 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190304 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Stage Middle
 A big wooden cutout of a yellow house with a red roof and a red door stands front and center of the stage, right behind where you were laying down. Around the house stands three taller wooden cutouts of trees.
@@ -209,7 +209,7 @@ You can also see grabber here.
     </item>
     <item nodeId="node-2984">
         <command xml:space="preserve">x cutout</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <result xml:space="preserve">There are a lot of cutouts here. It would take a lot of time to examine all of them.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -610,7 +610,24 @@ This part of the stage is pretty empty compared to the other two sections. Aside
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1991"></child>
+            <child nodeId="node-3268"></child>
         </children>
+    </item>
+    <item nodeId="node-3268">
+        <command xml:space="preserve">x flagpole</command>
+        <result xml:space="preserve">Smooth, polished, light gray steel. Like a normal flagpole but scaled down.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3271"></child>
+        </children>
+    </item>
+    <item nodeId="node-3271">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">You're wearing long black pants that go down to your ankles, shiny black shoes, and a purple t-shirt. You feel around your head, and notice you have short hair. Probably black.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1991">
         <command xml:space="preserve">e</command>
@@ -1666,14 +1683,15 @@ That's fixed in place.
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Studio Audience
-Right in front of the stage, you see two cameras and two lights fixed on low stands.
+Right in front of the stage, you see two lights fixed on low stands. Oddly enough, there are no cameras. The lights look strange as well; they're loose.
 
-Immediately, you notice something peculiar. You turn towards the stage, then towards the chairs. Facing the stage, all the chairs on the left are red, in the middle blue, and on the right green.
+Immediately, you notice another peculiar thing. You turn towards the stage, then towards the chairs. Facing the stage, all the chairs on the left are red, in the middle blue, and on the right green.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2287"></child>
             <child nodeId="node-3039"></child>
+            <child nodeId="node-3273"></child>
             <child nodeId="node-2706"></child>
             <child nodeId="node-2635"></child>
         </children>
@@ -1687,6 +1705,7 @@ In Lights is lightbulb.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2636"></child>
+            <child nodeId="node-3286"></child>
             <child nodeId="node-2779"></child>
         </children>
     </item>
@@ -1865,6 +1884,28 @@ You can see a red door here.
         <result xml:space="preserve">You switch lightbulb off.
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3286">
+        <command xml:space="preserve">unscrew lightbulb</command>
+        <result xml:space="preserve">You unscrew the lightbulb.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3287"></child>
+            <child nodeId="node-3291"></child>
+        </children>
+    </item>
+    <item nodeId="node-3291">
+        <command xml:space="preserve">take lightbulb</command>
+        <result xml:space="preserve">You try pulling it out, but it's stuck. However, you try again, and you feel it wiggle around a little bit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3287">
+        <command xml:space="preserve">screw lightbulb</command>
+        <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2636">
@@ -2187,16 +2228,140 @@ You can see a red door here.
 Passcode? &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-3273">
+        <command xml:space="preserve">take chair</command>
+        <result xml:space="preserve">They're bolted into the floor
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3274"></child>
+        </children>
+    </item>
+    <item nodeId="node-3274">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3275"></child>
+        </children>
+    </item>
+    <item nodeId="node-3275">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Stage Middle
+A big wooden cutout of a yellow house with a red roof and a red door stands front and center of the stage, right behind where you were laying down. Around the house stands three taller wooden cutouts of trees.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3276"></child>
+        </children>
+    </item>
+    <item nodeId="node-3276">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Stage Left
+Here there is a large, long, round cutout resembling some sort of lake. One giant fake oak tree stands closer to the house, with a large key dangling from its branches.
+
+One of those long plastic grabber things is on the floor at the base of the tree. You can't seem to figure out why it's there.
+
+On Big Oak Tree is big key.
+
+You can also see grabber here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3277"></child>
+        </children>
+    </item>
+    <item nodeId="node-3277">
+        <command xml:space="preserve">get grabber</command>
+        <result xml:space="preserve">Now you can get the key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3278"></child>
+        </children>
+    </item>
+    <item nodeId="node-3278">
+        <command xml:space="preserve">get key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3279"></child>
+        </children>
+    </item>
+    <item nodeId="node-3279">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Stage Middle
+A big wooden cutout of a yellow house with a red roof and a red door stands front and center of the stage, right behind where you were laying down. Around the house stands three taller wooden cutouts of trees.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3280"></child>
+        </children>
+    </item>
+    <item nodeId="node-3280">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Studio Audience
+Right in front of the stage, you see two cameras and two lights fixed on low stands.
+
+Immediately, you notice something peculiar. You turn towards the stage, then towards the chairs. Facing the stage, all the chairs on the left are red, in the middle blue, and on the right green.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3281"></child>
+        </children>
+    </item>
+    <item nodeId="node-3281">
+        <command xml:space="preserve">x lights</command>
+        <result xml:space="preserve">The lights they use on the show. They are currently off.
+
+In Lights is lightbulb.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3282"></child>
+        </children>
+    </item>
+    <item nodeId="node-3282">
+        <command xml:space="preserve">unscrew lightbulb</command>
+        <result xml:space="preserve">You unscrew the lightbulb.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3283"></child>
+        </children>
+    </item>
+    <item nodeId="node-3283">
+        <command xml:space="preserve">screw lightbulb</command>
+        <result xml:space="preserve">You unscrew the lightbulb.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-3039">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">(first opening the black door)
+The door is locked. You are trapped.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-3040"></child>
             <child nodeId="node-3193"></child>
             <child nodeId="node-3170"></child>
             <child nodeId="node-3197"></child>
+            <child nodeId="node-3236"></child>
         </children>
+    </item>
+    <item nodeId="node-3236">
+        <command xml:space="preserve">take chair</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-3197">
         <command xml:space="preserve">s</command>
@@ -4037,9 +4202,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Stage Middle
-Stage Middle
-
-You can see a red door here.
+A big wooden cutout of a yellow house with a red roof and a red door stands front and center of the stage, right behind where you were laying down. Around the house stands three taller wooden cutouts of trees.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -4531,15 +4694,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 Studio Audience
 Right in front of the stage, you see two cameras and two lights fixed on low stands.
 
-Looking back at the whole stage, you see 2 trees in stage left, 3 trees in stage middle, and 1 tree in stage right. Peculiar.
-
-left red
-
-middle blue
-
-right green
-
-You can see a black door here.
+Immediately, you notice something peculiar. You turn towards the stage, then towards the chairs. Facing the stage, all the chairs on the left are red, in the middle blue, and on the right green.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -4560,7 +4715,7 @@ In Lights is lightbulb.
     </item>
     <item nodeId="node-2666">
         <command xml:space="preserve">unscrew lightbulb</command>
-        <result xml:space="preserve">Nothing obvious happens.
+        <result xml:space="preserve">You unscrew the lightbulb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -4569,16 +4724,139 @@ In Lights is lightbulb.
     </item>
     <item nodeId="node-2681">
         <command xml:space="preserve">take lightbulb</command>
-        <result xml:space="preserve">You unscrew the lightbulb, and take it out.
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2682"></child>
+        <children><child nodeId="node-3245"></child>
+            <child nodeId="node-2682"></child>
         </children>
     </item>
     <item nodeId="node-2682">
         <command xml:space="preserve">unscrew lightbulb</command>
         <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3245">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Stage Middle
+A big wooden cutout of a yellow house with a red roof and a red door stands front and center of the stage, right behind where you were laying down. Around the house stands three taller wooden cutouts of trees.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3246"></child>
+            <child nodeId="node-3259"></child>
+        </children>
+    </item>
+    <item nodeId="node-3259">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">You unlock the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3260"></child>
+        </children>
+    </item>
+    <item nodeId="node-3260">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You open the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3261"></child>
+        </children>
+    </item>
+    <item nodeId="node-3261">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Backstage
+It's kind of dark. From the lights on the top of the stage, you can make out an empty lightbulb socket embedded in the ceiling.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3262"></child>
+        </children>
+    </item>
+    <item nodeId="node-3262">
+        <command xml:space="preserve">put lightbulb in socket</command>
+        <result xml:space="preserve">You screw in the lightbulb.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3263"></child>
+        </children>
+    </item>
+    <item nodeId="node-3263">
+        <command xml:space="preserve">turn on light</command>
+        <result xml:space="preserve">You turn on the light. Now you can see a safe embedded in the center of the back wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3264"></child>
+        </children>
+    </item>
+    <item nodeId="node-3264">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Backstage
+A single lightbulb gives off a warm yellow-orange glow, making it just bright enough to make out some details in the room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3265"></child>
+        </children>
+    </item>
+    <item nodeId="node-3265">
+        <command xml:space="preserve">x safe</command>
+        <result xml:space="preserve">It has a number pad and a seven-segment display, almost like a microwave, but super secure. The display is divided into three segments, red, blue, and green.
+
+Passcode? &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3266"></child>
+        </children>
+    </item>
+    <item nodeId="node-3266">
+        <command xml:space="preserve">231</command>
+        <result xml:space="preserve">You have unlocked the safe.
+That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3246">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">What do you want to unlock the red door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3247"></child>
+        </children>
+    </item>
+    <item nodeId="node-3247">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">You unlock the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3248"></child>
+        </children>
+    </item>
+    <item nodeId="node-3248">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You open the red door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3249"></child>
+        </children>
+    </item>
+    <item nodeId="node-3249">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Backstage
+A single lightbulb gives off a warm yellow-orange glow, making it just bright enough to make out some details in the room.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
