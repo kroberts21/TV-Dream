@@ -43,7 +43,8 @@ Instead of taking grabber:
 Stage Right is a room. It is west of Stage Middle. "This part of the stage is pretty empty compared to the other two sections. Aside from the sky blue backdrop, there are two trees and a tall flagpole with a white flag."
 Flagpole is a supporter in Stage Right. The description is "Smooth, polished, light gray steel. Like a normal flagpole but scaled down.".
 Flag is on Flagpole. The description is "A plain, white, rectangular piece of canvas.".
-Backdrop is undescribed scenery in Stage Right. The description is "Sky blue wallpaper. No clouds or anything.".
+xBackdrop is undescribed scenery in Stage Right. The description is "Sky blue wallpaper. No clouds or anything.".
+Understand "backdrop" as xBackdrop.
 
 Backstage is a room. "[if lightbulb is switched on]A single lightbulb gives off a warm yellow-orange glow, making it just bright enough to make out some details in the room.[otherwise]It's kind of dark. From the lights on the top of the stage, you can make out an empty lightbulb socket embedded in the ceiling.".
 The safe is scenery in Backstage. The safe is a closed openable container. The safe is locked and lockable. The description is "It has a number pad and a seven-segment display, almost like a microwave, but super secure. The display is divided into three segments, red, blue, and green.".
